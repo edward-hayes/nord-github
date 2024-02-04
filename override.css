@@ -25,6 +25,61 @@
 .react-code-file-contents {
     background-color: var(--nord0) !important;
     caret-color: var(--nord6) !important;
+    color: var(--nord4) !important;
+}
+
+.ͼ6 {
+    color: var(--nord9) !important;
+}
+
+.ͼ7 {
+    color: var(--nord3) !important;
+}
+
+.ͼa {
+    color: var(--nord7) !important;
+}
+
+.ͼe {
+    color: var(--nord10) !important;
+}
+
+.ͼ5 {
+    background-color: var(--nord0) !important;
+    color: var(--nord4) !important;
+    caret-color: var(--nord6) !important;
+}
+
+.ͼ5 .cm-content {
+    background-color: var(--nord0) !important;
+    color: var(--nord4) !important;
+    caret-color: var(--nord6) !important;
+}
+
+.ͼ5 .cm-gutters {
+    background-color: var(--nord0) !important;
+    color: var(--nord4) !important;
+    caret-color: var(--nord6) !important;
+}
+
+.ͼ8 {
+    color: var(--nord8) !important;
+}
+
+.ͼ9 {
+    color: var(--nord7) !important;
+}
+
+.ͼb {
+    color: var(--nord11) !important;
+}
+
+.ͼc {
+    color: var(--nord15) !important;
+}
+
+.ͼd {
+    color: var(--nord13) !important;
 }
 
 .react-code-line-contents {
