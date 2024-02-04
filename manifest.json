@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Nord Theme For Github",
+    "version": "1.0",
+    "description": "Injects a CSS override for GitHub",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+          "matches": ["https://*.github.com/*"],
+          "css": ["override.css"]
+        }
+    ],
+    "action": {
+      "default_icon": "mug-hot-solid.svg",
+      "default_title": "Nord Theme For Github"
+    }
+}

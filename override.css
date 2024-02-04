@@ -1,0 +1,195 @@
+:root {
+    /*
+    * Nord color palette from nordtheme.com
+    */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+
+    --color-attention-subtle: var(--nord9) !important;
+}
+
+.react-code-file-contents {
+    background-color: var(--nord0) !important;
+    caret-color: var(--nord6) !important;
+}
+
+.react-code-line-contents {
+    color: var(--nord4) !important;
+
+}
+
+  
+.pl-c,
+.pl-c span {
+    color: var(--nord3) !important;
+    font-style: italic !important;
+} /* comment */
+.pl-c1 {
+    color: var(--nord9) !important;
+} /* constant */
+.pl-e {
+    color: var(--nord10) !important;
+} /* entity */
+.pl-en {
+    color: var(--nord10) !important;
+} /* entity.name */
+.pl-ent {
+    color: var(--nord10) !important;
+} /* entity.name.tag */
+.pl-k {
+    color: var(--nord8) !important;
+} /* keyword */
+.pl-mb {
+    color: var(--nord9) !important;
+    font-weight: bold !important;
+} /* markup.bold */
+.pl-mdh {
+    color: var(--nord8) !important;
+} /* meta.diff.header */
+.pl-mdr {
+    color: var(--nord8) !important;
+} /* meta.diff.range */
+.pl-mh {
+    color: var(--nord11) !important;
+} /* markup.heading */
+.pl-mh .pl-en {
+    color: var(--nord11) !important;
+    font-weight: bold !important;
+} /* markup.heading entity.name */
+.pl-mi {
+    color: var(--nord8) !important;
+    font-style: italic !important;
+} /* markup.italic */
+.pl-ml {
+    color: var(--nord8) !important;
+} /* markup.list */
+.pl-mm {
+    color: var(--nord8) !important;
+} /* meta.module-reference */
+.pl-mo {
+    color: var(--nord8) !important;
+} /* meta.output */
+.pl-mp {
+    color: var(--nord8) !important;
+} /* meta.property-name */
+.pl-mq {
+    color: var(--nord1) !important;
+} /* markup.quote */
+.pl-mr {
+    color: var(--nord8) !important;
+} /* meta.require */
+.pl-ms {
+    color: var(--nord8) !important;
+} /* meta.selector */
+.pl-pds {
+    color: var(--nord9) !important;
+} /* punctuation.definition.string */
+.pl-s {
+    color: var(--nord7) !important;
+} /* storage */
+.pl-s1 {
+    color: var(--nord9) !important;
+} /* string */
+.pl-s1 .pl-pse .pl-s2 {
+    color: var(--nord9) !important;
+} /* string punctuation.section.embedded source */
+.pl-s1 .pl-s2 {
+    color: var(--nord4) !important;
+} /* string source */
+.pl-s1 .pl-v {
+    color: var(--nord8) !important;
+} /* string variable */
+.pl-s3 {
+    color: var(--nord8) !important;
+} /* support */
+.pl-sc {
+    color: var(--nord11) !important;
+} /* support.class */
+.pl-smi {
+    color: var(--nord4) !important;
+} /* storage.modifier.import */
+.pl-smp {
+    color: var(--nord4) !important;
+} /* storage.modifier.package */
+.pl-sr {
+    color: var(--nord12) !important;
+} /* string.regexp */
+.pl-sr .pl-cce {
+    color: var(--nord11) !important;
+} /* constant.character.escape */
+.pl-sr .pl-sra {
+    color: var(--nord12) !important;
+} /* string.regexp string.regexp.arbitrary-repetition */
+.pl-sr .pl-sre {
+    color: var(--nord12) !important;
+} /* string.regexp source.ruby.embedded */
+.pl-src {
+    color: var(--nord12) !important;
+} /* string.regexp.character-class */
+.pl-st {
+    color: var(--nord13) !important;
+} /* support.type */
+.pl-stj {
+    color: var(--nord4) !important;
+} /* storage.type.java */
+.pl-sv {
+    color: var(--nord9) !important;
+} /* support.variable */
+.pl-v {
+    color: var(--nord10) !important;
+} /* variable */
+.pl-vo {
+    color: var(--nord4) !important;
+} /* variable.other */
+.pl-vpf {
+    color: var(--nord4) !important;
+} /* variable.parameter.function */
+.pl-mi1 {
+    color: var(--nord4) !important;
+    background: var(--nord4) !important;
+} /* markup.inserted */
+.pl-mdht {
+    color: var(--nord4) !important;
+    background: var(--nord4) !important;
+} /* meta.diff.header.to-file */
+.pl-md {
+    color: var(--nord4) !important;
+    background: var(--nord4) !important;
+} /* markup.deleted */
+.pl-mdhf {
+    color: var(--nord4) !important;
+    background: var(--nord4) !important;
+} /* meta.diff.header.from-file */
+.pl-bu, /* invalid.broken, invalid.deprecated, invalid.unimplemented, message.error, brackethighlighter.unmatched, sublimelinter.mark.error */
+.pl-ii {
+    color: var(--nord4) !important;
+    background: var(--nord4) !important;
+} /* invalid.illegal */
+.pl-corl,
+.highlight .pl-corl span.x {
+    color: var(--nord10) !important;
+    text-decoration: underline !important;
+} /* links */
+/* language tweaks */
+.highlight-source-css .pl-k {
+    color: var(--nord1) !important;
+} /* keyword */ /* storage in c++ */
+.pl-token.active,
+.pl-token:hover {
+    background: var(--nord10) !important;
+    color: var(--nord0) !important;
+}
